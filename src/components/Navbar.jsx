@@ -18,14 +18,17 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
-                    <div className="flex-shrink-0 flex items-center">
+                    <div className="flex-shrink-0 flex items-center relative z-50">
+                        {/* Placeholder to reserve space in the flex flow */}
+                        <div className="w-28 h-25"></div>
                         <motion.div
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5 }}
+                            className="absolute top-0 left-0"
                         >
                             <Link to="/" className="flex items-center">
-                                <img src="/images/logo.png" alt="Shree Om Shakthi Industries" className="h-16 w-auto mr-2 object-contain" />
+                                <img src="/images/OMSI_LOGO.png" alt="Shree Om Shakthi Industries" className="h-28 w-auto object-contain drop-shadow-md" />
                             </Link>
                         </motion.div>
                     </div>

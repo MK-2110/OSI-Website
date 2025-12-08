@@ -20,7 +20,7 @@ const ProductDetails = () => {
                 >
                     <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">Product Catalog & Specifications</h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Detailed specifications for our Hydraulic Hose Assemblies, Crimp Fittings, and Industrial Nipples.
+                        Detailed specifications for our Crimp Fittings, and Industrial Nipples.
                     </p>
                 </motion.div>
 
