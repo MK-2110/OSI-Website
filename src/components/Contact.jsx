@@ -25,9 +25,9 @@ const Contact = () => {
 
         // Replace these with your actual EmailJS service, template, and public key
         // You can find these in your EmailJS dashboard
-        const SERVICE_ID = 'YOUR_SERVICE_ID';
-        const TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-        const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+        const SERVICE_ID = 'service_t24fwv5';
+        const TEMPLATE_ID = 'template_v4kokki';
+        const PUBLIC_KEY = 'hmqaIgbrRJ4PhrOTe';
 
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
             .then((result) => {
@@ -93,7 +93,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h4 className="text-lg font-bold text-primary mb-1">Email Address</h4>
-                                <p className="text-gray-600">omshakthiindustries.com@gmail.com</p>
+                                <p className="text-gray-600">omshakthiindustries@gmail.com</p>
                                 <p className="text-gray-600">info.harshiths@gmail.com</p>
                             </div>
                         </div>
