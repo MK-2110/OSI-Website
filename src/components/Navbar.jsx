@@ -33,7 +33,7 @@ const Navbar = () => {
                         </motion.div>
                     </div>
 
-                    {/* Desktop Menu */}
+                    {}
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
                             {navLinks.map((link) => (
